@@ -238,32 +238,205 @@
 </section>
 
 
+<section class="px-4 py-10 mx-auto max-w-7xl">
+    <p class="text-center mb-20 text-gray-200 text-3xl font-bold leading-tight">Juegos</p>
+    <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
 
-<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25">
-    <img alt="Office"
-        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        class="h-56 w-full object-cover" />
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
 
-    <div class="bg-white p-4 dark:bg-gray-900 sm:p-6">
-        <time datetime="2022-10-10" class="block text-xs text-gray-500 dark:text-gray-400">
-            10th Oct 2022
-        </time>
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
 
-        <a href="#">
-            <h3 class="mt-0.5 text-lg text-gray-900 dark:text-white">
-                How to position your furniture for positivity
-            </h3>
-        </a>
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
 
-        <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3 dark:text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-            dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-            sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-            voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-            Molestias explicabo corporis voluptatem?
-        </p>
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
     </div>
-</article>
+    <div
+        class="flex flex-col items-center justify-center mt-20 space-x-0 space-y-2 md:space-x-2 md:space-y-0 md:flex-row">
+        <a href="#"
+            class="text-center text-gray-100 w-full rounded-full btn btn-light btn-xl md:w-auto">Previous
+            Page</a>
+        <a href="#" class="text-center text-gray-100 w-full rounded-full btn btn-light btn-xl md:w-auto">Next
+            Page</a>
+    </div>
+</section>
+
+
+
+<div class="grid grid-cols-2">
+    <div class="bg-gray-300 h-20 grid-cols-1">
+
+        <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25">
+            <img alt="Office"
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="h-56 w-full object-cover" />
+
+            <div class="bg-white p-4 dark:bg-gray-900 sm:p-6">
+                <time datetime="2022-10-10" class="block text-xs text-gray-500 dark:text-gray-400">
+                    10th Oct 2022
+                </time>
+
+                <a href="#">
+                    <h3 class="mt-0.5 text-lg text-gray-900 dark:text-white">
+                        How to position your furniture for positivity
+                    </h3>
+                </a>
+
+                <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3 dark:text-gray-400">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+                    sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+                    voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                </p>
+            </div>
+        </article>
+
+    </div>
+    <div class="bg-gray-500 h-20 grid-cols-1">
+
+        <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25">
+            <img alt="Office"
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="h-56 w-full object-cover" />
+
+            <div class="bg-white p-4 dark:bg-gray-900 sm:p-6">
+                <time datetime="2022-10-10" class="block text-xs text-gray-500 dark:text-gray-400">
+                    10th Oct 2022
+                </time>
+
+                <a href="#">
+                    <h3 class="mt-0.5 text-lg text-gray-900 dark:text-white">
+                        How to position your furniture for positivity
+                    </h3>
+                </a>
+
+                <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3 dark:text-gray-400">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                    dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+                    sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+                    voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                </p>
+            </div>
+        </article>
+
+    </div>
+</div>
+
+
 
 <!--
   This example requires some changes to your config:
