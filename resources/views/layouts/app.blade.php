@@ -16,9 +16,9 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 
-        {{-- <link rel="stylesheet" href="{{ asset('css/app-d9704236.css') }}"> --}}
+        <link rel="stylesheet" href="{{ asset('cgit ss/app-d9704236.css') }}">
 
         {{-- Animaciones --}}
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -50,7 +50,7 @@
         @stack('modals')
 
         @livewireScripts
-        {{-- <script src="{{ asset('js/app-43c05ea5.js') }}"></script> --}}
+        <script src="{{ asset('js/app-43c05ea5.js') }}"></script>
     
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
