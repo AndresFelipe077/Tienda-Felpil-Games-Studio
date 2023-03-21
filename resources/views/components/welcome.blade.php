@@ -1,5 +1,5 @@
 <div
-    class="p-6 lg:p-8 bg-white dark:bg-gray-800 dark:bg-gradient-to-bl dark:from-gray-700/50 dark:via-transparent border-b border-gray-200 dark:border-gray-700">
+    class="p-6 lg:p-8 bg-white dark:bg-gray-800 dark:bg-gradient-to-bl dark:from-gray-700/50 dark:via-transparent border-b border-gray-200 dark:border-gray-700" data-aos="fade-down">
     {{-- <x-application-logo class="block h-12 w-auto" /> --}}
 
     <h1 class="mt-4 text-4xl font-medium text-gray-900 dark:text-white">
@@ -103,8 +103,144 @@
 
 
 
-<section class="px-4 mx-auto max-w-7xl">
-    <p class="text-center mb-20 text-gray-200 text-3xl font-bold leading-tight">Aplicaciones</p>
+<section class="px-4 mx-auto max-w-7xl" data-aos="fade-up">
+    <p class="text-center mb-20 text-gray-200 text-3xl font-bold leading-tight" id="seccion-apps" >Aplicaciones</p>
+    <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
+                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
+            </a>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900">
+                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
+                    Intelligence For RPA Bots</a>
+            </h2>
+            <p class="mb-3 text-sm font-normal text-gray-300">
+                Earlier RPA bots used to have some limitations like it would take structured data for processing from
+                excel, database, on these data. But with advancements in technology like OCR (Optical
+                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
+            </p>
+            <p class="mb-3 text-sm font-normal text-gray-400">
+                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
+                • April 16, 2020
+            </p>
+        </div>
+
+    </div>
+    <div class="flex justify-center m-8">
+        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">Anterior</a>
+        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">1</a>
+        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">2</a>
+        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">3</a>
+        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">4</a>
+        <a href="#"
+            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">Siguiente</a>
+    </div>
+</section>
+
+<section class="px-4 mx-auto max-w-7xl" data-aos="fade-up">
+    <p class="text-center mb-20 text-gray-200 text-3xl font-bold leading-tight" id="seccion-games" >Juegos</p>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
 
         <div>
@@ -240,156 +376,15 @@
 </section>
 
 
-<section class="px-4 py-10 mx-auto max-w-7xl">
-    <p class="text-center mb-20 text-gray-200 text-3xl font-bold leading-tight">Juegos</p>
-    <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-        </div>
-
-        <div>
-            <a href="#">
-                <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
-            </a>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900">
-                <a href="#" class="text-gray-200 hover:text-gray-100">Process Documents Using Artificial
-                    Intelligence For RPA Bots</a>
-            </h2>
-            <p class="mb-3 text-sm font-normal text-gray-300">
-                Earlier RPA bots used to have some limitations like it would take structured data for processing from
-                excel, database, on these data. But with advancements in technology like OCR (Optical
-                Character Recognition) and Machine Learning, RPA bots are capable of extracting these data …
-            </p>
-            <p class="mb-3 text-sm font-normal text-gray-400">
-                <a href="#" class="font-medium text-gray-400 hover:text-gray-100">Praveen Juge</a>
-                • April 16, 2020
-            </p>
-        </div>
-
-    </div>
-
-    <div class="flex justify-center m-8">
-        <a href="#"
-            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">Anterior</a>
-        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">1</a>
-        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">2</a>
-        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">3</a>
-        <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">4</a>
-        <a href="#"
-            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">Siguiente</a>
-    </div>
-
-
-</section>
-
 <div>
     <div>
-        <h1 class="text-white text-4xl text-center">Juego y app más destacado</h1>
+        <h1 class="text-white text-4xl text-center" id="seccion-apps-and-games">Juego y app más destacado</h1>
     </div>
 
     <div class="grid grid-cols-2 grid-flow-col m-7">
 
 
-        <div class="grid-cols-1 m-2">
+        <div class="grid-cols-1 m-2" data-aos="fade-right">
 
             <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25">
                 <img alt="Office"
@@ -416,12 +411,13 @@
                     </p>
 
                     <img src="{{ asset('img/img/felpilgamesstudio.png') }}"
-                    class="object-cover h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" width="50px" height="50px"/>
+                        class="object-cover h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy"
+                        width="50px" height="50px" />
                 </div>
             </article>
 
         </div>
-        <div class="grid-cols-1 m-2">
+        <div class="grid-cols-1 m-2" data-aos="fade-left">
 
             <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25">
                 <img alt="Office"
@@ -657,7 +653,7 @@
   </div> --}}
 
 
-<footer aria-label="Site Footer" class="dark:bg-slate-800 dark:text-slate-100">
+<footer aria-label="Site Footer" class="dark:bg-slate-800 dark:text-slate-100" data-aos="fade-up">
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="lg:flex lg:items-start lg:gap-8">
             <div class="text-teal-600">
