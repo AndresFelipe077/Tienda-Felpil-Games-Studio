@@ -164,18 +164,18 @@
                         </div>
 
                         <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+                            <p class="mt-4 text-sm text-gray-200 sm:mt-0">
+                                {{-- <a href="#" class="text-gray-700 underline">Log in</a>. --}}
+                                <x-button class="ml-4 px-12 py-3">
+                                    {{ __('Ingresar') }}
+                                </x-button>
+                            </p>
+
+
                             <a href="{{ route('register') }}"
                                 class="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
                                 Crear cuenta
                             </a>
-
-                            <p class="mt-4 text-sm text-gray-200 sm:mt-0">
-                                {{ __('Iniciar sesión') }}
-                                {{-- <a href="#" class="text-gray-700 underline">Log in</a>. --}}
-                                <x-button class="ml-4">
-                                    {{ __('Log in') }}
-                                </x-button>
-                            </p>
                         </div>
                     </form>
                 </div>
